@@ -22,7 +22,8 @@
       And, I never seemed to be able to go as deep or be received as deeply as with my sessions with Gayle.
       Her knowledge and continued studies of deeply rooted Trauma Issues, Coping Strategies and Integration breaks down the walls of Fear into Self Loving Awareness.
       I am someone who highly values mental health and I have found my lifelong Spiritual Advisor in Gayle.”<br>
-      -Deborah Mugherini</p><br>
+      -Deborah Mugherini<br>
+    </p><br>
     <p class="test-1">
       "I love Gayle. Her enthusiasm and kindness makes me to look forward to each session.
       She has an amazing intuition that allows her to guide you through the deepest places of your soul to heal each inch of it.
@@ -60,8 +61,9 @@
 
   function testAnimate() {
     console.log('inside handle scroll')
-    const test1 = document.querySelector('.test-1');
-    test1.classList.add('test-fade');
+    const test1 = document.querySelectorAll('.test-1');
+    test1[0].classList.add('test-fade');
+    test1[1].classList.add('test-fade2');
   }
 
 
