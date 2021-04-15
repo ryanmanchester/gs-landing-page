@@ -61,17 +61,25 @@ body{
 
 .testimonials {
   padding: 20px;
-  background: #e6faff;
-  text-align: center;
+  background: black;
+  color: white;
 }
 
 .bio {
   padding: 20px;
-  background: #f4f4f4;
-  text-align: center;
+  background: #003c5c;
+  color: white;
+  display: flex;
 }
 
 #headshot {
   max-width: 300px;
   max-height: 300px;
+  border: 2px solid;
+  border-color: black;
+}
+
+.box-2 {
+  margin: 0 20px;
+  line-height: 2.0;
 }
