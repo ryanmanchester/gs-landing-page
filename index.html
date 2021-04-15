@@ -11,12 +11,14 @@
 </head>
 <body>
   <header id="showcase">
+    <div id="fade-in">
       <h1>Gayle Staffanson</h1>
       <h2>Emotional Evolution</h2>
       <h3> - Trauma Healing - Personal Integration & Wellness - </h3>
-      <a href="#" class="button">Enter Site</a>
+    </div>
+    <a  href="#" id="button">Read More</a>
   </header>
-  <section class="bio">
+  <section id="bio">
     <div class="box-1">
       <img id="headshot" src="../img/headshot.jpg" alt="">
     </div>
@@ -34,7 +36,7 @@
     </div>
 
   </section>
-  <section class="testimonials">
+  <section id="testimonials">
       <p>“I am someone who has suffered from mental health issues my whole life.
         Been in and out of talk and group therapy for years.
         And, I never seemed to be able to go as deep or be received as deeply as with my sessions with Gayle.
@@ -50,3 +52,12 @@
   </section>
 </body>
 </html>
+
+<script>
+  window.onload = () => {
+    document.getElementById('fade-in').style.opacity = 1;
+    document.getElementById('button').style.opacity = 1;
+  }
+
+
+</script>

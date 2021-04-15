@@ -24,6 +24,10 @@ body{
   padding: 0 20px;
 }
 
+#fade-in {
+  opacity: 0;
+  transition: 1s;
+}
 
 #showcase #headshot {
   max-width: 400px;
@@ -37,13 +41,14 @@ body{
 
 #showcase h2 {
   font-size: 35px;
+  line-height: 1.5;
 }
 
 #showcase h3 {
   font-size: 25px;
 }
 
-#showcase .button {
+#showcase #button {
   padding: 10px;
   font-size: 18px;
   text-decoration: none;
@@ -52,20 +57,23 @@ body{
   border-radius: 10px;
   margin-top: 10px;
   align-content: center;
+  opacity: 0;
+  transition: 1.5s;
 }
 
-#showcase .button:hover {
+#showcase #button:hover {
   background: #004d66;
   color: white;
 }
 
-.testimonials {
+#testimonials {
   padding: 20px;
   background: black;
   color: white;
+  line-height: 1.6;
 }
 
-.bio {
+#bio {
   padding: 20px;
   background: #003c5c;
   color: white;
