@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#showcase #headshot {
+  max-width: 400px;
+  max-height: 400px;
+
+}
+
+#showcase h1{
+  font-size: 50px;
+}
+
+#showcase h2 {
+  font-size: 35px;
+}
+
+#showcase h3 {
+  font-size: 25px;
+}
+
+#showcase .button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: lightgrey;
+}
