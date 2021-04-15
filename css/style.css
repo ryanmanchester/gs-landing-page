@@ -5,13 +5,13 @@
 
 body{
   margin: 0;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   line-height: 1.6;
 }
 
 #showcase {
-  background-image: url('../img/background.jpg');
+  background-image: url('../img/swirlbg.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -19,8 +19,11 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  color: white;
   padding: 0 20px;
 }
+
 
 #showcase #headshot {
   max-width: 400px;
@@ -43,5 +46,32 @@ body{
 #showcase .button {
   padding: 10px;
   font-size: 18px;
-  background-color: lightgrey;
+  text-decoration: none;
+  color: white;
+  border: #b3ecff 1px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  align-content: center;
+}
+
+#showcase .button:hover {
+  background: #004d66;
+  color: white;
+}
+
+.testimonials {
+  padding: 20px;
+  background: #e6faff;
+  text-align: center;
+}
+
+.bio {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#headshot {
+  max-width: 300px;
+  max-height: 300px;
 }
