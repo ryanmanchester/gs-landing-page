@@ -1,19 +1,40 @@
-header {
+.main-container {
+  background-color: #f5f1ef;
+}
+
+.header {
   background-image: url('../img/tree-birds-image.jpeg');
-  background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-position:center;
-  height: 100vh;
+  height: 450px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 body {
   font: 1rem/1.5 var(--bs-font-sans-serif);
 }
 h1 {
+
   color: var(--bs-white);
+}
+
+.left {
+  padding: 1rem;
+  margin-top: -130px;
+}
+
+.right {
+ padding: 1rem;
+ margin-bottom: -120px;
+
+}
+
+#headshot {
+  justify-content: right;
+  margin-top: 8px;
+  border: 1px solid;
+  border-color: black;
 }
 /*
 #showcase {
@@ -100,12 +121,7 @@ h1 {
   border-color: black;
 }
 
-#headshot {
-  margin-top: 8px;
-  max-height: 317px;
-  border: 1px solid;
-  border-color: black;
-}
+
 
 
 
