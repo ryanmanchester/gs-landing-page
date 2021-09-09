@@ -1,34 +1,42 @@
-*{
-  margin: 0;
-  padding: 0;
-
-}
-
-body{
-  margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
-
-}
-
-#showcase {
-  background-image: url('../img/swirlbg.jpg');
+header {
+  background-image: url('../img/tree-birds-image.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  padding: 0 20px;
+}
+
+body {
+  font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+h1 {
+  color: var(--bs-white);
+}
+/*
+#showcase {
+  background-image: url('../img/tree-birds-image.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 #fade-in {
+  display: flex;
   opacity: 0;
   transition: 1s;
+}
+
+.fade1 {
+  justify-content: flex-start;
+  margin-top: 10rem;
+  margin-left: 4rem;
+  color: white;
+  text-shadow: 1px;
+}
+
+.fade2 {
+  margin-top: 20rem;
+  margin-left: 30rem;
+  color: white;
 }
 
 #showcase #headshot {
@@ -48,6 +56,7 @@ body{
 
 #showcase h3 {
   font-size: 25px;
+  border-bottom: 1px solid white;
 }
 
 .book-now {
@@ -71,6 +80,7 @@ body{
 
 
 #testimonials {
+  margin-top: 4em;
   padding: 20px;
   background: black;
   color: white;
@@ -115,4 +125,4 @@ body{
 .test-fade2 {
   opacity: 1;
   transition: 5s;
-}
+} */

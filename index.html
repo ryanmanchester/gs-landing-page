@@ -4,37 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
   <title>Emotional Evolution</title>
 </head>
 <body>
-  <header id="showcase">
-    <div id="fade-in">
-      <h1>Gayle Staffanson</h1>
-      <h2>Emotional Evolution</h2>
-      <h3>Trauma Healing • Personal Integration • Wellness</h3>
-    </div>
-    <div class="testimonials">
-    <p class="test-1">“I am someone who has suffered from mental health issues my whole life.
-      Been in and out of talk and group therapy for years.
-      And, I never seemed to be able to go as deep or be received as deeply as with my sessions with Gayle.
-      Her knowledge and continued studies of deeply rooted Trauma Issues, Coping Strategies and Integration breaks down the walls of Fear into Self Loving Awareness.
-      I am someone who highly values mental health and I have found my lifelong Spiritual Advisor in Gayle.”<br>
-      -Deborah Mugherini<br>
-    </p><br>
-    <p class="test-1">
-      "I love Gayle. Her enthusiasm and kindness makes me to look forward to each session.
-      She has an amazing intuition that allows her to guide you through the deepest places of your soul to heal each inch of it.
-      She has all the qualities of a healer."<br>
-      -Narcisa
-    </p>
-    <button onclick="bookNow()"  class="book-now" class="test-1">Book A Session</button>
-  </div>
+  <div class="container">
+  <header class="row">
+
+
+      <div class="col-md">
+      <h1 class="fade1">What Would It Take</h1>
+      <h1 class="fade2">To Know You're Ok?
+      </div>
 
   </header>
-  <section id="bio">
+ <!-- <section id="bio">
     <div class="box-1">
       <img id="headshot" src="../img/Gayle-Headshot.jpg" alt="">
     </div>
@@ -51,30 +39,10 @@
       </p>
     </div>
 
-  </section>
+  </section> -->
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 </body>
+</div>
 </html>
-
-<script>
-  window.onload = () => {
-    document.getElementById('fade-in').style.opacity = 1;
-    testAnimate();
-  }
-
-  function testAnimate() {
-    console.log('inside handle scroll')
-    const test1 = document.querySelectorAll('.test-1');
-    setTimeout(function() {
-      test1[0].classList.add('test-fade');
-      test1[1].classList.add('test-fade2');
-    }, 2000)
-
-  }
-
-  function bookNow() {
-    alert("Session booked!");
-  }
-
-
-</script>
