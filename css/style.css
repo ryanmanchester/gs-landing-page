@@ -1,8 +1,12 @@
 header {
   background-image: url('../img/tree-birds-image.jpeg');
-  background-size: cover;
-  background-position: center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
