@@ -6,40 +6,87 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <title>Emotional Evolution</title>
 </head>
 <section class = "main-container">
   <div class="container-fluid">
-    <div class="header">
+    <div class="row">
+    <div class="col-xs header">
       <h1 class="left">What would it take to accept...</h1>
       <h1 class="right">...there is nothing wrong with you</h1>
     </div>
+  </div>
 <body>
+  <div class="main-title">
+<h1 class="text-center name-heading">Gayle Staffanson</h1>
+<h2 class="text-center subtitle">•Emotional Evolution•</h2>
+</div>
+ <section class="row bio">
+   <div class="col">
+     <img id="headshot" class="img-fluid col-md-6 float-end" src="../img/Gayle-Headshot.jpg" alt="">
+     <span class="d-block">
+       I am a certified practitioner in trauma recovery, and emotional integration.
+       I use different techniques to help people become aware of the armor and defenses that keep them stuck and find ways to integrate (not change or banish), and reawaken their true selves.
+       I utilize therapeutic modalities such as Bioenergetics, Inner child and Parts Work to help people gain a deeper understanding of themselves and empower them to live an authentic life.
+       We are an interdependent species that needs and thrives on relationships.
+       Relationships with ourselves and others - which, in reality, reflect each other.
+       When we feel abandoned or shamed for who we are, relationships feel toxic.
+       We learn to mistrust others and ourselves. We feel the need to control or manipulate in order to get our needs met...or flee from relationships altogether.  Learning to honor our boundaries and understand the root of our mistrust is essential in moving toward healing and attracting the kind of relationships that feel good.
+       I am eager to guide and help you uncover the aspects of yourself that are keeping you from creating the life you desire, and get you on the road to a more joyous life than you ever thought possible.
+     </span>
+   </div>
+  </section>
 
- <section class="row">
-   <p class="text-start">
-     I am a certified practitioner in trauma recovery, and emotional integration.
-     I use different techniques to help people become aware of the armor and defenses that keep them stuck and find ways to integrate (not change or banish), and reawaken their true selves.
-     I utilize therapeutic modalities such as Bioenergetics, Inner child and Parts Work to help people gain a deeper understanding of themselves and empower them to live an authentic life.
-     We are an interdependent species that needs and thrives on relationships.</p>
-     <p>Relationships with ourselves and others - which, in reality, reflect each other.
-     When we feel abandoned or shamed for who we are, relationships feel toxic.
-     We learn to mistrust others and ourselves. We feel the need to control or manipulate in order to get our needs met...or flee from relationships altogether.  Learning to honor our boundaries and understand the root of our mistrust is essential in moving toward healing and attracting the kind of relationships that feel good.
-     I am eager to guide and help you uncover the aspects of yourself that are keeping you from creating the life you desire, and get you on the road to a more joyous life than you ever thought possible.
-   </p>
-    <div class="col-md-8">
-      <div class="text-end">
-      <img id="headshot" class="img-fluid float-end" src="../img/Gayle-Headshot.jpg" alt="">
-    </div>
+  <section class="row buy-now-cards">
+    <h1 class="text-center buy-now-title">Healing Packages</h1>
+    <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Healing Package #1</h5>
+            <p class="card-text">The intro package</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
       </div>
-
+      <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Healing Package #2</h5>
+              <p class="card-text">The further healing package</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Healing Package #3</h5>
+                <p class="card-text">The best healing package</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
   </section>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
+<script type="text/javascript">
+  switch (document.readyState) {
+    case "loading":
+    console.log('loading');
+    case "interactive":
+    console.log('almost ready...');
+    case "complete":
+    const left = document.querySelector('.left');
+    left.classList.remove('left')
+    left.classList.add('fade-left')
+    const right = document.querySelector('.right');
+    right.classList.remove('right')
+    right.classList.add('fade-right')
+  }
+</script>
 </body>
 </div>
 </section>
